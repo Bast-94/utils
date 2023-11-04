@@ -1,5 +1,4 @@
-
-from src.yaml_io import read_yaml, save_config
+from utils.yaml_io import read_yaml, save_config
 def assign_value_to_nested_dict(dictionnary, keys, value):
     if len(keys) == 1:
         dictionnary[keys[0]] = value
